@@ -17,7 +17,7 @@ public class patientController {
 
     @GetMapping("/print-name-str")
     public String printPatientNameStr(){
-        return patientService.printName("Eman");
+        return patientService.printName("Amr");
     }
 
 
